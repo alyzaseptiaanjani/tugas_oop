@@ -2,7 +2,7 @@ using System;
 
 namespace TokoOnlineApp
 {
-    // Class dasar (Encapsulation + Constructor)
+    // Class (Encapsulation + Constructor)
     class Produk
     {
         private string nama;
@@ -17,10 +17,10 @@ namespace TokoOnlineApp
         public string Nama => nama;
         public double Harga => harga;
 
-        // Virtual method → bisa dioverride
         public virtual void Info()
         {
             Console.WriteLine($"Produk: {nama}, Harga: Rp{harga}");
         }
     }
 }
+
